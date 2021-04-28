@@ -1,7 +1,7 @@
 # pd_reference
 Reference for common pandas functions and expressions.
 
-### Query where field  does not start with
+### Query where field  does not start with something
 `df = df[~df.L_CITY_ID.str.startswith('~',na=False)]   `
 ### Querying multiple columns  
 
