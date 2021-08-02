@@ -3,7 +3,7 @@
 First install [pyinstaller](https://www.pyinstaller.org/documentation.html)  
 `pip install pyinstaller`
 
-Command below specifies to not display Command Prompt and renames executable  
+The command below tells pyinstaller not to display Command Prompt window when exe is launched and it renames the executable to hardware.exe    
 `pyinstaller --onefile -w tcpclient_v5.py --name "hardware.exe"`
 
 
